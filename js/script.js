@@ -89,10 +89,12 @@ window.addEventListener('DOMContentLoaded', () => {
    burgerMenuBtn.addEventListener('click', triggerBurgerMenu);
 
    burgerPanel.addEventListener('click', e => {
-      burgerMenuLinks.forEach(link => {
-         if (e.target === link) {
-            triggerBurgerMenu();
-         }
-      });
+      if (!burgerPanel.classList.contains('header__menu--closed')) {
+         burgerMenuLinks.forEach(link => {
+            if (e.target === link) {
+               triggerBurgerMenu();
+            }
+         });
+      }
    });
 });
