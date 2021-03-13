@@ -21,7 +21,7 @@ body {
   text-align: center;
   border-radius: 70px;
   color: #fff;
-  background-color: #828282;
+  background-color: #8c2336;
   -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
   opacity: 0;
@@ -33,7 +33,7 @@ body {
 }
 
 .go-up-btn:hover {
-  background-color: #000;
+  background-color: #0d0d0d;
 }
 
 .go-up-btn:active {
@@ -183,12 +183,12 @@ section:nth-child(1n + 2) {
   text-decoration: none;
   font-size: 34px;
   line-height: 40px;
-  color: #828282;
+  color: #8c2336;
   cursor: pointer;
 }
 
 .header__menu-link--active {
-  color: #000;
+  color: #0d0d0d;
 }
 
 .name__container {
@@ -238,7 +238,7 @@ section:nth-child(1n + 2) {
   display: block;
   width: 33px;
   height: 4px;
-  background-color: #000;
+  background-color: #0d0d0d;
 }
 
 .burger-menu-btn:before {
@@ -247,7 +247,7 @@ section:nth-child(1n + 2) {
   top: 8px;
   width: 33px;
   height: 4px;
-  background-color: #000;
+  background-color: #0d0d0d;
 }
 
 .burger-menu-btn:after {
@@ -256,7 +256,7 @@ section:nth-child(1n + 2) {
   top: 16px;
   width: 33px;
   height: 4px;
-  background-color: #000;
+  background-color: #0d0d0d;
 }
 
 .hero-image {
@@ -267,16 +267,15 @@ section:nth-child(1n + 2) {
   min-width: 260px;
   height: 478px;
   background-image: url("../images/hero-s.jpg");
-  -o-object-fit: cover;
-     object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about-me {
   width: 100%;
   text-align: center;
-  background-color: #f6f6f6;
+  background-color: #f2f2f2;
 }
 
 .about-me__container {
@@ -288,14 +287,14 @@ section:nth-child(1n + 2) {
   font-size: 34px;
   line-height: 42px;
   text-align: center;
-  color: #000;
+  color: #0d0d0d;
 }
 
 .about-me__text {
   margin-top: 40px;
   font-size: 18px;
   line-height: 22px;
-  color: #000;
+  color: #0d0d0d;
 }
 
 .skills {
@@ -351,7 +350,7 @@ section:nth-child(1n + 2) {
   font-family: 'g-bold';
   font-size: 14px;
   line-height: 17px;
-  color: #828282;
+  color: #8c2336;
 }
 
 .skills__block-icon {
@@ -389,7 +388,7 @@ section:nth-child(1n + 2) {
 .portfolio {
   width: 100%;
   text-align: center;
-  background-color: #f6f6f6;
+  background-color: #f2f2f2;
 }
 
 .portfolio__container {
@@ -420,7 +419,7 @@ section:nth-child(1n + 2) {
   display: inline-block;
   font-size: 18px;
   line-height: 22px;
-  color: #000;
+  color: #0d0d0d;
 }
 
 footer {
@@ -456,14 +455,14 @@ footer {
   font-size: 34px;
   line-height: 42px;
   text-transform: capitalize !important;
-  color: #000;
+  color: #0d0d0d;
 }
 
 .footer__slogan {
   margin-bottom: 40px;
   font-size: 18px;
   line-height: 22px;
-  color: #000;
+  color: #0d0d0d;
 }
 
 .footer__message-link {
@@ -477,7 +476,7 @@ footer {
   line-height: 42px;
   text-align: center;
   color: #fff;
-  background-color: #000;
+  background-color: #0d0d0d;
   border-radius: 50px;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
@@ -488,8 +487,8 @@ footer {
   -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
           transform: scale(1.05);
-  -webkit-filter: drop-shadow(0 7px 10px #828282);
-          filter: drop-shadow(0 7px 10px #828282);
+  -webkit-filter: drop-shadow(0 7px 10px #8c2336);
+          filter: drop-shadow(0 7px 10px #8c2336);
 }
 
 .footer__message-link:active {
@@ -527,8 +526,8 @@ footer {
   -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
           transform: scale(1.05);
-  -webkit-filter: drop-shadow(0 3px 5px #828282);
-          filter: drop-shadow(0 3px 5px #828282);
+  -webkit-filter: drop-shadow(0 3px 5px #8c2336);
+          filter: drop-shadow(0 3px 5px #8c2336);
 }
 
 .footer__social-item:active {
@@ -542,7 +541,7 @@ footer {
 .footer__proposal {
   font-size: 18px;
   line-height: 22px;
-  color: #828282;
+  color: #8c2336;
 }
 
 @media only screen and (min-width: 712px) {
@@ -574,7 +573,7 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border-bottom: 1px solid #828282;
+    border-bottom: 1px solid #8c2336;
   }
 
   .header__menu-item + .header__menu-item {
@@ -593,7 +592,7 @@ footer {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #000;
+    background-color: #0d0d0d;
     content: '';
     -webkit-transition: 0.2s;
     -o-transition: 0.2s;

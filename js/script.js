@@ -27,7 +27,8 @@ goUpBtn.addEventListener('click', () => {
 
 window.addEventListener('DOMContentLoaded', () => {
    const headerLinks = document.querySelectorAll('.header__menu-link');
-   const headerNav = document.querySelector('.header__menu-list');
+   const headerMenu = document.querySelector('.header__menu');
+   const nameContainer = document.querySelector('.name__container');
 
    function navigate(e) {
       e.preventDefault();
@@ -36,7 +37,12 @@ window.addEventListener('DOMContentLoaded', () => {
       let goToY = 0;
 
       if (e.getAttribute('data-target') !== 'home') {
-         goToY = goToElement.offsetTop - parseInt(getComputedStyle(goToElement).paddingTop);
+         let upperShift = 0 - parseInt(getComputedStyle(nameContainer).marginTop);
+
+         if (headerMenu.classList.contains('header__menu--closed')) {
+            upperShift = parseInt(getComputedStyle(headerMenu).height);
+         }
+         goToY = goToElement.offsetTop - upperShift;
       } else {
          goToY = 0;
       }
